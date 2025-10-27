@@ -98,6 +98,7 @@
       easing: 'ease-in-out',
       once: true,
       mirror: false
+      new Swiper('.swiper', { loop: true, pagination: { el: '.swiper-pagination' } });
     });
   }
   window.addEventListener('load', aosInit);
